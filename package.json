@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-validation": "1.0.2",
+    "joi": "10.6.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./server/movies/*.test.js"
+  },
+  "name": "interveiw-test-be",
+  "version": "1.0.0",
+  "description": "interview test backend using nodejs",
+  "main": "server.js",
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Dawam Raja",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
