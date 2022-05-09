@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "mocha ./server/movies/*.test.js"
+    "test": "mocha ./server/*/*.test.js"
   },
   "name": "interveiw-test-be",
   "version": "1.0.0",
@@ -22,6 +22,9 @@
   "author": "Dawam Raja",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^9.2.2"
+    "chai": "^4.3.6",
+    "cross-env": "^7.0.3",
+    "mocha": "^9.2.2",
+    "supertest": "^6.2.3"
   }
 }

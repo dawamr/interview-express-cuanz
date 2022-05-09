@@ -2,7 +2,7 @@ const assert = require('assert');
 const Movies = require('./movie.model');
 const { generateParams } = require('./../services/Query');
 
-describe("Movie Test", () => { 
+describe("Movie Unit Test", () => { 
     before(() => {
         console.log( "ON TEST" );
     });
